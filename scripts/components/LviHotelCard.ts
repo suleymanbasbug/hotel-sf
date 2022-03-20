@@ -1,9 +1,10 @@
 import LviHotelCardDesign from 'generated/my-components/LviHotelCard';
 import { Hotel } from 'types';
-
+import { themeService } from "../theme";
+const originalHeight = themeService.getStyle('.lviHotelCard').height;
 export default class LviHotelCard extends LviHotelCardDesign {
     pageName?: string | undefined;
-    private __hotel : Hotel
+    private __hotel: Hotel
     constructor(props?: any, pageName?: string) {
         // Initalizes super class for this scope
         super(props);
@@ -27,29 +28,32 @@ export default class LviHotelCard extends LviHotelCardDesign {
     set hotelInfo(value: string) {
         this.flHotelCardWrapper.hotelInfo = value;
     }
-    get hotelPrice():string{
+    get hotelPrice(): string {
         return this.flHotelCardWrapper.hotelPrice;
     }
-    set hotelPrice(value:string){
+    set hotelPrice(value: string) {
         this.flHotelCardWrapper.hotelPrice = value;
     }
-    get priceType():string{
+    get priceType(): string {
         return this.flHotelCardWrapper.priceType;
     }
-    set priceType(value:string){
+    set priceType(value: string) {
         this.flHotelCardWrapper.priceType = value;
     }
-    get isSaved():string{
+    get isSaved(): string {
         return this.flHotelCardWrapper.isSaved;
     }
-    set isSaved(value:string){
+    set isSaved(value: string) {
         this.flHotelCardWrapper.isSaved = value;
     }
-    get hotel(){
+    get hotel() {
         return this.__hotel;
     }
-    set hotel(value:Hotel){
+    set hotel(value: Hotel) {
         this.__hotel = value;
+    }
+    static getHeight():number{
+        return originalHeight;
     }
 
 }

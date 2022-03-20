@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-listViewItem",
+			"className": ".sf-listViewItem .lviHotelCard",
 			"hiddenComponent": true,
 			"id": "d882-71f0-3c3d-b86b",
 			"props": {

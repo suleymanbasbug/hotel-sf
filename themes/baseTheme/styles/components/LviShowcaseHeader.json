@@ -1,0 +1,8 @@
+{
+  ".lviShowcaseHeader": {
+    "height": 50,
+    "&-flProductHeader": {
+      "height": 50
+    }
+  }
+}

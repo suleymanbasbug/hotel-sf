@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-listViewItem",
+			"className": ".sf-listViewItem .lviHotelDetail",
 			"hiddenComponent": true,
 			"id": "9bd0-ca63-9897-f4b1",
 			"props": {

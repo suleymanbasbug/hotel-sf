@@ -106,7 +106,7 @@ export function getLviBanner(item: Partial<LviBanner>): ProcessorTypes.ILviBanne
     return {
         type: 'LVI_BANNER',
         properties: { ...item, borders: [] },
-        height: 150
+        height: LviBanner.getHeight()
     };
 }
 
@@ -117,7 +117,7 @@ export function getLviHotelCard(item: Partial<LviHotelCard>): ProcessorTypes.ILv
             ...item,
             borders: []
         },
-        height: 255
+        height: LviHotelCard.getHeight()
     };
 }
 
@@ -128,7 +128,7 @@ export function getLviFilterbar(item: Partial<LviFilterbar>): ProcessorTypes.ILv
             ...item,
             borders: []
         },
-        height: 80
+        height: LviFilterbar.getHeight()
     };
 }
 
@@ -139,7 +139,7 @@ export function getLviHotelDetail(item: Partial<LviHotelDetail>): ProcessorTypes
             ...item,
             borders: []
         },
-        height: 650
+        height: LviHotelDetail.getHeight()
     };
 }
 
@@ -153,7 +153,7 @@ export function getLviGenericSlider(
             ...item,
             borders: []
         },
-        height: 300
+        height: LviGenericSlider.getHeight()
     };
 }
 

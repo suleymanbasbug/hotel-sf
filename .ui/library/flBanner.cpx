@@ -32,7 +32,7 @@
 			}
 		},
 		{
-			"className": ".sf-imageView",
+			"className": ".sf-imageView .flBanner-imgIcon",
 			"id": "45ec-b868-1293-6041",
 			"oldName": "imageView1",
 			"props": {
@@ -48,13 +48,12 @@
 			"type": "ImageView",
 			"userProps": {
 				"alpha": 1,
-				"flexProps": {
-					"flexGrow": 1
-				},
-				"height": null,
-				"imageFillType": "MIDCENTER",
+				"height": 50,
+				"imageFillType": "ASPECTFILL",
+				"marginBottom": null,
+				"marginTop": 50,
 				"usePageVariable": true,
-				"width": null
+				"width": 50
 			}
 		},
 		{

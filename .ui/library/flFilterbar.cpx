@@ -2,7 +2,7 @@
 	"components": [
 		{
 			"className": ".sf-flexLayout",
-			"hiddenComponent": true,
+			"hiddenComponent": false,
 			"id": "6249-84b1-cbc6-8e74",
 			"props": {
 				"children": [
@@ -23,6 +23,8 @@
 				},
 				"height": 150,
 				"left": 14.93,
+				"paddingLeft": 10,
+				"paddingRight": 10,
 				"top": 294.03
 			}
 		},
@@ -240,12 +242,13 @@
 			},
 			"type": "FlexLayout",
 			"userProps": {
+				"backgroundColor": "rgba( 155, 155, 155, 1 )",
 				"flexProps": {
-					"flexGrow": 1,
 					"justifyContent": "CENTER",
 					"alignContent": "STRETCH",
 					"alignItems": "STRETCH"
 				},
+				"height": 1,
 				"paddingLeft": 20,
 				"paddingRight": 5
 			}

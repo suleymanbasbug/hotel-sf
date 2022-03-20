@@ -1,0 +1,9 @@
+{
+  ".flBanner": {
+    "&-imgIcon": {
+      "imageFillType": "NORMAL",
+      "height": 50,
+      "width": 50
+    }
+  }
+}

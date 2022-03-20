@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-listViewItem",
+			"className": ".sf-listViewItem .lviBanner",
 			"hiddenComponent": true,
 			"id": "1b95-1d22-3c0e-e412",
 			"props": {
@@ -33,7 +33,7 @@
 			}
 		},
 		{
-			"className": ".sf-flexLayout",
+			"className": ".sf-flexLayout .lviBanner-flBanner",
 			"hiddenComponent": false,
 			"id": "fe66-34f6-3e92-4f8e",
 			"props": {

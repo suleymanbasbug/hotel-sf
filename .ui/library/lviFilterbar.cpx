@@ -1,8 +1,8 @@
 {
 	"components": [
 		{
-			"className": ".sf-listViewItem",
-			"hiddenComponent": true,
+			"className": ".sf-listViewItem .lviFilterbar",
+			"hiddenComponent": false,
 			"id": "989b-0ebe-3551-c13e",
 			"props": {
 				"children": [
@@ -20,6 +20,8 @@
 				"flexProps": {},
 				"height": 74.63,
 				"left": 0,
+				"paddingLeft": 15,
+				"paddingRight": 15,
 				"top": 158.21,
 				"width": 376.12
 			}
