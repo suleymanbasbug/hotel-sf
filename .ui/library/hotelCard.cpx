@@ -1,0 +1,94 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .simple-gridviewItem",
+			"hiddenComponent": true,
+			"id": "eca3-8d64-ce16-bd41",
+			"initialized": false,
+			"props": {
+				"children": [
+					"abe9-0ef7-2a8f-ddfe",
+					"bf22-521a-da52-95ab",
+					"89e9-5a55-d019-783f"
+				],
+				"name": "hotelCard",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flexProps": {},
+				"height": 344.64,
+				"left": 417.86,
+				"top": 167.86,
+				"width": 351.79
+			}
+		},
+		{
+			"className": ".sf-imageView .simple-gridviewItem-preview",
+			"id": "abe9-0ef7-2a8f-ddfe",
+			"props": {
+				"autoHeight": 343.4782608695652,
+				"autoWidth": 343.4782608695652,
+				"children": [],
+				"name": "imgPreview",
+				"parent": "eca3-8d64-ce16-bd41"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"autoHeight": 343.4782608695652,
+				"autoWidth": 343.4782608695652,
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				},
+				"height": 344.64,
+				"left": -3.57,
+				"top": 0,
+				"width": 341.07
+			}
+		},
+		{
+			"className": ".sf-label .simple-gridviewItem-title",
+			"id": "bf22-521a-da52-95ab",
+			"props": {
+				"autoHeight": 20.652173913043477,
+				"children": [],
+				"name": "lblTitle",
+				"parent": "eca3-8d64-ce16-bd41",
+				"text": "Grid Title Here"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 20.652173913043477,
+				"text": "Grid Title Here"
+			}
+		},
+		{
+			"className": ".sf-label .simple-gridviewItem-subtitle",
+			"id": "89e9-5a55-d019-783f",
+			"props": {
+				"autoHeight": 18.478260869565215,
+				"children": [],
+				"name": "lblSubtitle",
+				"parent": "eca3-8d64-ce16-bd41",
+				"text": "Grid subtitle here"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 18.478260869565215,
+				"text": "Grid subtitle here"
+			}
+		}
+	]
+}

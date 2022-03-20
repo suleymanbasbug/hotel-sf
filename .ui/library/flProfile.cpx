@@ -1,0 +1,130 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flProfile",
+			"id": "68cc-8217-88e4-f3f1",
+			"props": {
+				"children": [
+					"02c5-5e06-2dd7-6138",
+					"3045-5d21-c31c-c779"
+				],
+				"name": "flProfile",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 17.86,
+				"top": 273.21
+			}
+		},
+		{
+			"className": ".sf-imageView .flProfile-imgProfile",
+			"id": "02c5-5e06-2dd7-6138",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgProfile",
+				"parent": "68cc-8217-88e4-f3f1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfile-flProfileRightWrapper",
+			"id": "3045-5d21-c31c-c779",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"bd76-bbd2-ca4b-2c4c",
+					"c8d2-9a2e-828e-da25"
+				],
+				"name": "flProfileRightWrapper",
+				"parent": "68cc-8217-88e4-f3f1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flProfile-flProfileRightWrapper-flProfileTop",
+			"id": "bd76-bbd2-ca4b-2c4c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"4ecf-68d3-a1cd-452a"
+				],
+				"name": "flProfileTop",
+				"parent": "3045-5d21-c31c-c779"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"maxWidth": 250
+			}
+		},
+		{
+			"className": ".sf-label .flProfile-lblProfileName",
+			"id": "4ecf-68d3-a1cd-452a",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblProfileName",
+				"parent": "bd76-bbd2-ca4b-2c4c",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"height": null,
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flProfile-lblProfileEmail",
+			"id": "c8d2-9a2e-828e-da25",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblProfileEmail",
+				"parent": "3045-5d21-c31c-c779",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

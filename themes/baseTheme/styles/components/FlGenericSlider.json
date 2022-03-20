@@ -1,0 +1,17 @@
+{
+  ".flGenericSlider": {
+    "&-flRadiusDotIndicatorWrapper": {
+      "flexProps": {
+        "alignContent": "CENTER",
+        "alignItems": "STRETCH",
+        "flexDirection": "ROW",
+        "justifyContent": "CENTER",
+        "positionType": "ABSOLUTE"
+      },
+      "bottom": 0,
+      "height": 24,
+      "left": 0,
+      "right": 0
+    }
+  }
+}

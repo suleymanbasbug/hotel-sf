@@ -1,0 +1,20 @@
+{
+  ".sf-statusBar": {
+    "masksToBounds": true,
+    "android": {
+      "color": "#00A1F1"
+    },
+    "style": "LIGHTCONTENT",
+    "visible": true
+  },
+  ".sf": {
+    "&-flexLayout": {
+      "flexProps": {
+        "flexWrap": "NOWRAP"
+      }
+    },
+    "&-imageView": {
+      "width": 360
+    }
+  }
+}

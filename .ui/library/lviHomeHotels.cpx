@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": true,
+			"id": "5da1-0662-4c82-b608",
+			"props": {
+				"children": [
+					"c40c-6012-f986-cb42"
+				],
+				"name": "lviHomeHotels",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {
+					"alignContent": "CENTER",
+					"alignSelf": "STRETCH",
+					"positionType": "RELATIVE"
+				},
+				"height": 316.07,
+				"width": 403.57
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "c40c-6012-f986-cb42",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"c097-1551-eddd-67ef"
+				],
+				"name": "flHotelContainer",
+				"parent": "5da1-0662-4c82-b608"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"positionType": "RELATIVE"
+				},
+				"height": 260,
+				"width": 380
+			}
+		},
+		{
+			"className": ".sf-gridView",
+			"id": "c097-1551-eddd-67ef",
+			"oldName": "gridView1",
+			"props": {
+				"children": [
+					"0a88-dcae-0f45-d25b"
+				],
+				"name": "gvHotels",
+				"parent": "c40c-6012-f986-cb42",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": null,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				},
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-gridViewItem",
+			"hiddenComponent": false,
+			"id": "0a88-dcae-0f45-d25b",
+			"oldName": "gridViewItem1",
+			"props": {
+				"children": [],
+				"name": "gviHotelItem",
+				"parent": "c097-1551-eddd-67ef"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "gviHotelItem",
+				"id": "2d0c-4c00-e6a7-4a15"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": 260,
+				"left": 0,
+				"top": 0,
+				"width": 165
+			}
+		}
+	]
+}

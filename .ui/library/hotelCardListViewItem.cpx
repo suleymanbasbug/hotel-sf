@@ -1,0 +1,429 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .simple-listviewItem",
+			"hiddenComponent": true,
+			"id": "ba7b-6cf9-49ee-d9fd",
+			"initialized": false,
+			"props": {
+				"children": [
+					"6c57-5acc-76e5-5503"
+				],
+				"name": "hotelCardListViewItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"height": 198.11,
+				"ios": {
+					"shadowOpacity": 0
+				},
+				"left": 3.23,
+				"top": 133.87,
+				"width": 384.91
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "6c57-5acc-76e5-5503",
+			"props": {
+				"children": [
+					"0e6c-0d81-33a2-b8ec",
+					"2c7f-a59a-63b0-5593"
+				],
+				"name": "hotelCardListFlexLayout",
+				"parent": "ba7b-6cf9-49ee-d9fd"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 255, 255, 255, 1 )",
+				"borderRadius": 0,
+				"flexProps": {},
+				"height": 220.75,
+				"top": 0,
+				"width": 384.91
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "0e6c-0d81-33a2-b8ec",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"f9f3-0558-ad41-5588",
+					"85b5-b889-d9e9-759b"
+				],
+				"name": "hotelInfo",
+				"parent": "6c57-5acc-76e5-5503"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignItems": "STRETCH",
+					"flexDirection": "COLUMN_REVERSE",
+					"flexWrap": "WRAP"
+				},
+				"height": 172,
+				"width": 384
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "f9f3-0558-ad41-5588",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "hotelImage",
+				"parent": "0e6c-0d81-33a2-b8ec"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				},
+				"height": 172,
+				"image": "hotelimage.png",
+				"imageFillType": "ASPECTFILL",
+				"width": 384
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "85b5-b889-d9e9-759b",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"d54d-1b8e-990d-f653",
+					"5a7f-80b5-64aa-8135"
+				],
+				"name": "bottomLayout",
+				"parent": "0e6c-0d81-33a2-b8ec"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexDirection": "ROW"
+				},
+				"height": 50
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "d54d-1b8e-990d-f653",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"d3a6-2eb9-31a7-e91c",
+					"7803-b41c-39b7-4ed3"
+				],
+				"name": "leftLayout",
+				"parent": "85b5-b889-d9e9-759b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexWrap": "NOWRAP",
+					"alignItems": "FLEX_START",
+					"justifyContent": "FLEX_START",
+					"flexDirection": "COLUMN",
+					"alignContent": "FLEX_START"
+				},
+				"height": 50,
+				"left": 8,
+				"right": 0,
+				"width": 250
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "d3a6-2eb9-31a7-e91c",
+			"oldName": "label5",
+			"props": {
+				"children": [],
+				"name": "hotelName",
+				"parent": "d54d-1b8e-990d-f653",
+				"text": "Sarovar Portico"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {},
+				"font": {
+					"size": 23,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5BrandsRegular",
+					"style": null
+				},
+				"height": 25,
+				"text": "Sarovar Portico",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"width": 200
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "7803-b41c-39b7-4ed3",
+			"oldName": "label6",
+			"props": {
+				"children": [],
+				"name": "hotelInfo",
+				"parent": "d54d-1b8e-990d-f653",
+				"text": "4 star hotel • 96%"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5BrandsRegular",
+					"style": null
+				},
+				"height": 25,
+				"text": "4 star hotel • 96%",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"width": 200
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "5a7f-80b5-64aa-8135",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"a7a1-8299-05f9-4ad3",
+					"9741-03b6-ee98-a03c"
+				],
+				"name": "rightLayout",
+				"parent": "85b5-b889-d9e9-759b"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"alignContent": "FLEX_END",
+					"justifyContent": "FLEX_END",
+					"alignItems": "FLEX_START"
+				},
+				"height": 50,
+				"left": 0,
+				"right": 0,
+				"width": 110
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "a7a1-8299-05f9-4ad3",
+			"oldName": "label6",
+			"props": {
+				"children": [],
+				"name": "price",
+				"parent": "5a7f-80b5-64aa-8135",
+				"text": " ₽ 4999"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 24,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5BrandsRegular",
+					"style": null
+				},
+				"height": 25,
+				"text": " ₽ 4999",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"width": 135
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "9741-03b6-ee98-a03c",
+			"oldName": "label7",
+			"props": {
+				"children": [],
+				"name": "priceType",
+				"parent": "5a7f-80b5-64aa-8135",
+				"text": "per nighy"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 12,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5BrandsRegular",
+					"style": null
+				},
+				"height": 25,
+				"left": 6,
+				"text": "per nighy",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"width": 135
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "2c7f-a59a-63b0-5593",
+			"oldName": "flexLayout3",
+			"props": {
+				"children": [
+					"b73b-d64b-7b51-137f",
+					"768a-1a68-376d-64b9",
+					"cb47-0011-bf6d-0244"
+				],
+				"name": "buttons",
+				"parent": "6c57-5acc-76e5-5503"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderRadius": 0,
+				"borderWidth": 0,
+				"flexProps": {
+					"flexDirection": "ROW",
+					"alignItems": "CENTER",
+					"justifyContent": "SPACE_BETWEEN"
+				},
+				"height": 50,
+				"width": 384
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "b73b-d64b-7b51-137f",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "2c7f-a59a-63b0-5593",
+				"text": "Bookmark "
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"ellipsizeMode": "MIDDLE",
+				"font": {
+					"size": 17,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5FreeRegular",
+					"style": null
+				},
+				"left": 12,
+				"text": "Bookmark ",
+				"textColor": "rgba( 241, 8, 0, 1 )",
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "768a-1a68-376d-64b9",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "2c7f-a59a-63b0-5593",
+				"text": "Save"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 17,
+					"bold": false,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Regular"
+				},
+				"left": 43.4,
+				"text": "Save",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 241, 0, 0, 1 )",
+				"top": 0,
+				"width": 100
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "cb47-0011-bf6d-0244",
+			"props": {
+				"children": [],
+				"name": "button1_1",
+				"parent": "2c7f-a59a-63b0-5593",
+				"text": "Book Now"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Button",
+			"userProps": {
+				"alpha": 1,
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 0, 0, 1 )",
+				"borderRadius": 3,
+				"borderWidth": 1,
+				"flexProps": {
+					"alignSelf": "CENTER",
+					"positionType": "RELATIVE"
+				},
+				"font": {
+					"size": 12,
+					"bold": false,
+					"italic": false,
+					"family": "Default",
+					"style": "Regular"
+				},
+				"height": 33,
+				"right": 12,
+				"text": "Book Now",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 255, 1, 1, 1 )",
+				"width": 87
+			}
+		}
+	]
+}

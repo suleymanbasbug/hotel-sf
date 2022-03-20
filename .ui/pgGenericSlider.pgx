@@ -1,0 +1,73 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "fb57-473d-e661-26d4",
+			"initialized": true,
+			"props": {
+				"children": [
+					"fb6c-b680-1b11-2733",
+					"cd45-6e64-2abf-ebb9",
+					"cbeb-8713-28d7-c494"
+				],
+				"name": "pgGenericSlider",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "fb6c-b680-1b11-2733",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "fb57-473d-e661-26d4"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"android": {
+					"color": "rgba( 255, 255, 255, 1 )"
+				},
+				"style": "DEFAULT"
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "cd45-6e64-2abf-ebb9",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "fb57-473d-e661-26d4",
+				"title": "pgGenericSlider"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgGenericSlider",
+				"visible": false
+			}
+		},
+		{
+			"className": ".sf-imageView #pgHomeSlider-imgSliderItem",
+			"id": "cbeb-8713-28d7-c494",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgSliderItem",
+				"parent": "fb57-473d-e661-26d4",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ImageView",
+			"userProps": {
+				"testId": "dduyqmcbk",
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

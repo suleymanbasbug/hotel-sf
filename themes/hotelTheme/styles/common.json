@@ -1,0 +1,40 @@
+{
+  ".livGenericSlider": {
+    "flexProps": {},
+    "height": 350
+  },
+  ".grow": {
+    "flexProps": {
+      "flexGrow": 1
+    }
+  },
+  ".dotIndicator": {
+    "flexProps": {
+      "alignItems": "CENTER",
+      "flexDirection": "ROW",
+      "justifyContent": "CENTER",
+      "positionType": "RELATIVE"
+    },
+    "height": 27,
+    "paddingBottom": 9,
+    "paddingTop": -4,
+    "width": 77,
+    "&-dot": {
+      "backgroundColor": "rgba( 0, 0, 0, 1 )",
+      "borderRadius": 3.5,
+      "height": 7,
+      "marginLeft": 3.5,
+      "width": 7,
+      ".main": {
+        ".active": {
+          "alpha": 1,
+          "backgroundColor": "rgba( 0, 0, 0, 1 )",
+          "borderRadius": 3.5,
+          "height": 7,
+          "marginLeft": 3.5,
+          "width": 7
+        }
+      }
+    }
+  }
+}

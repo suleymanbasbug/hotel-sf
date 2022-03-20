@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": true,
+			"id": "1b95-1d22-3c0e-e412",
+			"props": {
+				"children": [
+					"fe66-34f6-3e92-4f8e"
+				],
+				"name": "lviBanner",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"backgroundColor": "rgba( 0, 0, 0, 0 )",
+				"flexProps": {
+					"alignContent": "CENTER"
+				},
+				"height": 215,
+				"left": 3.33,
+				"paddingBottom": 10,
+				"paddingLeft": 10,
+				"paddingRight": 10,
+				"paddingTop": 10,
+				"top": 101.67,
+				"visible": true,
+				"width": 365
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "fe66-34f6-3e92-4f8e",
+			"props": {
+				"children": [],
+				"name": "flBanner",
+				"parent": "1b95-1d22-3c0e-e412",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "flBanner",
+				"id": "849f-c5c7-c795-7f8c"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"backgroundColor": "rgba( 239, 67, 57, 1 )",
+				"flex": {
+					"flexDirection": 2,
+					"positionType": 0
+				},
+				"flexProps": {
+					"flexDirection": "ROW",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"height": null,
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+  ".sf": {
+    "&-listViewItem": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      }
+    }
+  }
+}

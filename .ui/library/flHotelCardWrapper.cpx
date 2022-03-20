@@ -1,0 +1,451 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "8b82-22fd-ca62-2529",
+			"props": {
+				"children": [
+					"05c6-ceef-a860-9273",
+					"966a-9fbf-8512-60b3"
+				],
+				"name": "flHotelCardWrapper",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 254.9,
+				"left": 5.88,
+				"top": 49.02,
+				"width": 372.55
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "05c6-ceef-a860-9273",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"12bb-5731-0448-c9dc"
+				],
+				"name": "flHotelInfo",
+				"parent": "8b82-22fd-ca62-2529"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 3
+				},
+				"height": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "12bb-5731-0448-c9dc",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"98df-ff1f-ff74-6057",
+					"27e7-8140-fae0-5029",
+					"ef1a-f955-f645-b918"
+				],
+				"name": "flHotelInfoWrapper",
+				"parent": "05c6-ceef-a860-9273"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW"
+				},
+				"height": null,
+				"paddingBottom": 8,
+				"paddingLeft": 12,
+				"paddingRight": 10
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "98df-ff1f-ff74-6057",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgHotel",
+				"parent": "12bb-5731-0448-c9dc",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "ABSOLUTE"
+				},
+				"height": null,
+				"imageFillType": "ASPECTFILL",
+				"minHeight": 184,
+				"usePageVariable": true,
+				"width": 403
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "27e7-8140-fae0-5029",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"7bdb-f7c8-da8b-615b",
+					"fcdb-69f7-844f-bd03"
+				],
+				"name": "flLeft",
+				"parent": "12bb-5731-0448-c9dc"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 4,
+					"flexDirection": "COLUMN_REVERSE"
+				},
+				"height": null,
+				"marginBottom": 20
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "7bdb-f7c8-da8b-615b",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHotelInfo",
+				"parent": "27e7-8140-fae0-5029",
+				"text": "lbl",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 14,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": 18,
+				"text": "lbl",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "fcdb-69f7-844f-bd03",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblHotelName",
+				"parent": "27e7-8140-fae0-5029",
+				"text": "label2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 23,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": 25,
+				"text": "label2",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "ef1a-f955-f645-b918",
+			"oldName": "flexLayout2",
+			"props": {
+				"children": [
+					"837b-7b17-862f-f733",
+					"930e-8da4-c5b4-ae0b"
+				],
+				"name": "flRight",
+				"parent": "12bb-5731-0448-c9dc"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2,
+					"flexDirection": "COLUMN_REVERSE"
+				},
+				"height": null,
+				"paddingBottom": 20
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "837b-7b17-862f-f733",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblPriceType",
+				"parent": "ef1a-f955-f645-b918",
+				"text": "label2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 12,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": 16,
+				"text": "label2",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "930e-8da4-c5b4-ae0b",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblPrice",
+				"parent": "ef1a-f955-f645-b918",
+				"text": "label3",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 24,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": 26,
+				"ios": {
+					"shadowColor": "rgba( 255, 255, 255, 1 )"
+				},
+				"text": "label3",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "966a-9fbf-8512-60b3",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"a865-2875-ea60-7fc4",
+					"6cda-d9bb-b7a8-1981"
+				],
+				"name": "flHotelButtons",
+				"parent": "8b82-22fd-ca62-2529"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW"
+				}
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "a865-2875-ea60-7fc4",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"de00-ab2e-bbd9-9ab6",
+					"8d0b-7377-ce48-b4c8"
+				],
+				"name": "flLeft",
+				"parent": "966a-9fbf-8512-60b3"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 4,
+					"flexDirection": "ROW"
+				},
+				"paddingLeft": 5
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "de00-ab2e-bbd9-9ab6",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblisSaved",
+				"parent": "a865-2875-ea60-7fc4",
+				"text": "bookmark",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"alignSelf": "AUTO"
+				},
+				"font": {
+					"size": 17,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5FreeRegular",
+					"style": null
+				},
+				"text": "bookmark",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 239, 67, 57, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "8d0b-7377-ce48-b4c8",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblSave",
+				"parent": "a865-2875-ea60-7fc4",
+				"text": "Save"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"flexGrow": 8
+				},
+				"font": {
+					"size": 13,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"text": "Save",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 239, 67, 57, 1 )",
+				"visible": true,
+				"width": 250
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "6cda-d9bb-b7a8-1981",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"ca83-86bc-c745-f761"
+				],
+				"name": "flRight",
+				"parent": "966a-9fbf-8512-60b3"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2,
+					"justifyContent": "CENTER"
+				},
+				"height": null,
+				"paddingRight": 35
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "ca83-86bc-c745-f761",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnBookmark",
+				"parent": "6cda-d9bb-b7a8-1981",
+				"text": "Book Now"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Button",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 255, 67, 57, 1 )",
+				"borderRadius": 4,
+				"borderWidth": 0.5,
+				"flexProps": {
+					"alignSelf": "AUTO"
+				},
+				"font": {
+					"size": 12,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": 38,
+				"text": "Book Now",
+				"textColor": "rgba( 239, 67, 57, 1 )",
+				"width": null
+			}
+		}
+	]
+}

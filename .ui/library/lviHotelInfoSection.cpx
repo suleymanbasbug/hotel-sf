@@ -1,0 +1,55 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem .lviHotelInfoSection .paddingHorizontal",
+			"hiddenComponent": true,
+			"id": "1674-4c3e-61f0-8164",
+			"props": {
+				"children": [
+					"e5e9-2c00-d2d9-ec7d"
+				],
+				"name": "lviHotelInfoSection",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {},
+				"left": -1.79,
+				"top": 207.14
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHotelInfoSection",
+			"hiddenComponent": false,
+			"id": "e5e9-2c00-d2d9-ec7d",
+			"props": {
+				"children": [],
+				"name": "flHotelInfoSection",
+				"parent": "1674-4c3e-61f0-8164",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "flHotelInfoSection",
+				"id": "6f77-40e5-22b6-9033"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"top": 0,
+				"usePageVariable": true
+			}
+		}
+	]
+}

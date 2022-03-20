@@ -1,0 +1,26 @@
+{
+  ".sf": {
+    "&-button": {
+      "&-main": {
+        "flexProps": {
+          "alignSelf": "AUTO",
+          "positionType": "RELATIVE"
+        },
+        "alpha": 1,
+        "backgroundColor": "rgba( 239, 67, 57, 1 )",
+        "borderRadius": 19,
+        "borderWidth": 0,
+        "font": {
+          "bold": "true",
+          "size": 16,
+          "style": "Medium"
+        },
+        "height": 67,
+        "textAlignment": "MIDCENTER",
+        "textColor": "rgba(255,255,255,1)",
+        "visible": "true",
+        "width": null
+      }
+    }
+  }
+}

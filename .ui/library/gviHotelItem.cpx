@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem",
+			"hiddenComponent": true,
+			"id": "2d0c-4c00-e6a7-4a15",
+			"props": {
+				"children": [
+					"edfa-3349-6d93-46d0"
+				],
+				"name": "gviHotelItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flexProps": {},
+				"height": 260,
+				"left": -58.93,
+				"top": -25,
+				"width": 165
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "edfa-3349-6d93-46d0",
+			"props": {
+				"children": [],
+				"name": "flHotelItem",
+				"parent": "2d0c-4c00-e6a7-4a15",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "flHotelItem",
+				"id": "f6d8-b7cf-ef7a-bfc4"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"height": 260,
+				"marginBottom": 10,
+				"marginLeft": 10,
+				"marginRight": 10,
+				"marginTop": 5,
+				"usePageVariable": true
+			}
+		}
+	]
+}

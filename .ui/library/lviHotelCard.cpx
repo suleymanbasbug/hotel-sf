@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"className": ".sf-listViewItem",
+			"hiddenComponent": true,
+			"id": "d882-71f0-3c3d-b86b",
+			"props": {
+				"children": [
+					"7c1c-6f3a-a311-eb8e"
+				],
+				"name": "lviHotelCard",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ListViewItem",
+			"userProps": {
+				"flexProps": {
+					"alignContent": "CENTER"
+				},
+				"height": 167.35,
+				"left": -9.8,
+				"paddingLeft": 15,
+				"paddingRight": 15,
+				"top": 392.16,
+				"width": 402.04
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": false,
+			"id": "7c1c-6f3a-a311-eb8e",
+			"props": {
+				"children": [],
+				"name": "flHotelCardWrapper",
+				"parent": "d882-71f0-3c3d-b86b",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "flHotelCardWrapper",
+				"id": "8b82-22fd-ca62-2529"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"borderColor": "rgba( 56, 56, 56, 0.5 )",
+				"borderRadius": 4,
+				"borderWidth": 0.15,
+				"flex": {
+					"flexGrow": 1,
+					"positionType": 0
+				},
+				"flexProps": {
+					"flexGrow": 1,
+					"positionType": "RELATIVE",
+					"flexDirection": "COLUMN"
+				},
+				"height": null,
+				"left": 0,
+				"marginBottom": 10,
+				"marginTop": 10,
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

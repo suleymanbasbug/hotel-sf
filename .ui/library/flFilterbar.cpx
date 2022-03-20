@@ -1,0 +1,284 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "6249-84b1-cbc6-8e74",
+			"props": {
+				"children": [
+					"e547-bede-0141-eb71",
+					"d52c-690c-cfd5-9dbf"
+				],
+				"name": "flFilterbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": 150,
+				"left": 14.93,
+				"top": 294.03
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "e547-bede-0141-eb71",
+			"oldName": "top",
+			"props": {
+				"children": [
+					"0fcd-78f0-f1dd-c05b",
+					"4c0d-b7c7-f171-df03"
+				],
+				"name": "flTop",
+				"parent": "6249-84b1-cbc6-8e74"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 3,
+					"flexDirection": "ROW"
+				},
+				"paddingLeft": 5,
+				"paddingRight": 5
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "0fcd-78f0-f1dd-c05b",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"873c-beb3-1a26-7316",
+					"5e3d-bc7c-e21c-aafc"
+				],
+				"name": "flLocation",
+				"parent": "e547-bede-0141-eb71"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW",
+					"alignContent": "CENTER"
+				}
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "873c-beb3-1a26-7316",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblLocationIcon",
+				"parent": "0fcd-78f0-f1dd-c05b",
+				"text": "map-marker-alt"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2
+				},
+				"font": {
+					"size": 17,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5FreeSolid",
+					"style": null
+				},
+				"text": "map-marker-alt",
+				"textAlignment": "MIDRIGHT",
+				"textColor": "rgba( 239, 67, 57, 1 )"
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "5e3d-bc7c-e21c-aafc",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblLocationName",
+				"parent": "0fcd-78f0-f1dd-c05b",
+				"text": "Bangalore"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 8
+				},
+				"font": {
+					"size": 17,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"marginLeft": 5,
+				"text": "Bangalore",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 51, 51, 51, 1 )"
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "4c0d-b7c7-f171-df03",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8006-cad0-1433-79b3",
+					"bbc6-ea59-788f-f311"
+				],
+				"name": "flFilterBy",
+				"parent": "e547-bede-0141-eb71"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW",
+					"justifyContent": "FLEX_START",
+					"alignItems": "STRETCH"
+				}
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "8006-cad0-1433-79b3",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblFilterByIcon",
+				"parent": "4c0d-b7c7-f171-df03",
+				"text": "filter"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2
+				},
+				"font": {
+					"size": 9,
+					"bold": false,
+					"italic": false,
+					"family": "FontAwesome5FreeSolid",
+					"style": null
+				},
+				"text": "filter",
+				"textAlignment": "MIDRIGHT",
+				"textColor": "rgba( 239, 67, 57, 1 )"
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "bbc6-ea59-788f-f311",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblFilterBy",
+				"parent": "4c0d-b7c7-f171-df03",
+				"text": "FilterBy"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 14,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"text": "FilterBy",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 239, 67, 57, 1 )"
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "d52c-690c-cfd5-9dbf",
+			"oldName": "bottom",
+			"props": {
+				"children": [
+					"c881-dc8c-86f2-0c26"
+				],
+				"name": "flBottom",
+				"parent": "6249-84b1-cbc6-8e74"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"justifyContent": "CENTER",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH"
+				},
+				"paddingLeft": 20,
+				"paddingRight": 5
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "c881-dc8c-86f2-0c26",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblLine",
+				"parent": "d52c-690c-cfd5-9dbf",
+				"text": "--------------------------------------------------------------"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 13,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"text": "--------------------------------------------------------------",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 151, 151, 151, 0.5 )"
+			}
+		}
+	]
+}

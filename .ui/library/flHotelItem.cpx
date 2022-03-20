@@ -1,0 +1,154 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flHotelItem",
+			"hiddenComponent": true,
+			"id": "f6d8-b7cf-ef7a-bfc4",
+			"props": {
+				"children": [
+					"c56b-a669-5d88-bcde"
+				],
+				"name": "flHotelItem",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout .flHotelItem-flHotelItemWrapper",
+			"hiddenComponent": false,
+			"id": "c56b-a669-5d88-bcde",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"d1e7-4797-5c82-e1b3",
+					"d591-5144-0558-b979"
+				],
+				"name": "flHotelItemWrapper",
+				"parent": "f6d8-b7cf-ef7a-bfc4",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "d1e7-4797-5c82-e1b3",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgHotel",
+				"parent": "c56b-a669-5d88-bcde",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"height": 100,
+				"imageFillType": "ASPECTFILL",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "d591-5144-0558-b979",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"8432-b96a-ca95-3a40",
+					"e7c7-892a-9cc4-247e"
+				],
+				"name": "flHotelInfoWrapper",
+				"parent": "c56b-a669-5d88-bcde",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "CENTER"
+				},
+				"height": 80,
+				"paddingBottom": 12,
+				"paddingLeft": 16,
+				"paddingRight": 16,
+				"paddingTop": 12,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "8432-b96a-ca95-3a40",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHotelName",
+				"parent": "d591-5144-0558-b979",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"height": 20,
+				"text": "label1",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "e7c7-892a-9cc4-247e",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHotelPrice",
+				"parent": "d591-5144-0558-b979",
+				"text": "label2",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 12,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"height": 20,
+				"text": "label2",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		}
+	]
+}

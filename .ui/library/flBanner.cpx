@@ -1,0 +1,132 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "849f-c5c7-c795-7f8c",
+			"props": {
+				"children": [
+					"45ec-b868-1293-6041",
+					"368c-9a32-d467-9885",
+					"78f0-8ede-2552-bc78"
+				],
+				"name": "flBanner",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexDirection": "ROW"
+				},
+				"height": 200,
+				"left": 18.33,
+				"marginLeft": 15,
+				"marginRight": 15,
+				"marginTop": 15,
+				"top": 400,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "45ec-b868-1293-6041",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgIcon",
+				"parent": "849f-c5c7-c795-7f8c",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"alpha": 1,
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"height": null,
+				"imageFillType": "MIDCENTER",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "368c-9a32-d467-9885",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblInfo",
+				"parent": "849f-c5c7-c795-7f8c",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"ellipsizeMode": "NONE",
+				"flexProps": {
+					"flexGrow": 3,
+					"alignSelf": "STRETCH"
+				},
+				"font": {
+					"size": 20,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"height": null,
+				"maxLines": 4,
+				"text": "label1",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 255, 255, 255, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "78f0-8ede-2552-bc78",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnView",
+				"parent": "849f-c5c7-c795-7f8c",
+				"text": "View"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Button",
+			"userProps": {
+				"backgroundColor": "rgba( 242, 115, 108, 1 )",
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"flexGrow": 2,
+					"alignSelf": "FLEX_END"
+				},
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"height": 40,
+				"text": "View",
+				"textAlignment": "MIDCENTER",
+				"width": null
+			}
+		}
+	]
+}

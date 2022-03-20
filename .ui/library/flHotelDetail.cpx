@@ -1,0 +1,223 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "3721-d348-925b-f91b",
+			"props": {
+				"children": [
+					"b6d4-7b59-a3aa-ac73",
+					"6436-870d-ea39-a53a"
+				],
+				"name": "flHotelDetail",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"height": 412.28,
+				"left": 3.51,
+				"top": 208.77,
+				"width": 368.42
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "b6d4-7b59-a3aa-ac73",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgHotel",
+				"parent": "3721-d348-925b-f91b",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2
+				},
+				"height": null,
+				"imageFillType": "ASPECTFILL",
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "6436-870d-ea39-a53a",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"4bc3-db4e-253c-8752",
+					"423e-403c-183c-acef",
+					"17a8-255e-6c52-6576",
+					"5b2a-fd36-ad74-7cc3"
+				],
+				"name": "flHotelInfo",
+				"parent": "3721-d348-925b-f91b",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "FLEX_START",
+					"alignContent": "STRETCH",
+					"flexWrap": "WRAP",
+					"alignItems": "STRETCH",
+					"flexGrow": 2,
+					"flexDirection": "COLUMN"
+				},
+				"height": null,
+				"paddingBottom": 20,
+				"paddingLeft": 20,
+				"paddingRight": 20,
+				"paddingTop": 20,
+				"usePageVariable": true,
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "4bc3-db4e-253c-8752",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHotelName",
+				"parent": "6436-870d-ea39-a53a",
+				"text": "lblHotelName",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 3
+				},
+				"font": {
+					"size": 24,
+					"bold": true,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Bold"
+				},
+				"height": null,
+				"text": "lblHotelName",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "423e-403c-183c-acef",
+			"oldName": "label2",
+			"props": {
+				"children": [],
+				"name": "lblHotelPrice",
+				"parent": "6436-870d-ea39-a53a",
+				"text": "lblHotelPrice",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 3
+				},
+				"font": {
+					"size": 20,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": null,
+				"text": "lblHotelPrice",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "17a8-255e-6c52-6576",
+			"oldName": "label3",
+			"props": {
+				"children": [],
+				"name": "lblPriceType",
+				"parent": "6436-870d-ea39-a53a",
+				"text": "lblHotelPriceType",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 3
+				},
+				"font": {
+					"size": 20,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": null,
+				"text": "lblHotelPriceType",
+				"textAlignment": "MIDCENTER",
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "5b2a-fd36-ad74-7cc3",
+			"oldName": "button1",
+			"props": {
+				"children": [],
+				"name": "btnBook",
+				"parent": "6436-870d-ea39-a53a",
+				"text": "Book Now"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Button",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"borderColor": "rgba( 0, 0, 0, 1 )",
+				"borderWidth": 0.5,
+				"flexProps": {
+					"flexGrow": 4
+				},
+				"font": {
+					"size": 20,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Regular"
+				},
+				"height": null,
+				"text": "Book Now",
+				"textColor": "rgba( 0, 0, 0, 1 )"
+			}
+		}
+	]
+}

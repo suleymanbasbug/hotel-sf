@@ -1,0 +1,2 @@
+export const SERVICE_TIMEOUT = 120000;
+export const DEBOUNCE_TIMEOUT = 500;

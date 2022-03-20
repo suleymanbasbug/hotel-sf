@@ -1,0 +1,76 @@
+{
+  ".flProfile": {
+    "backgroundColor": "rgba(255,255,255,1)",
+    "flexProps": {
+      "flexDirection": "ROW",
+      "flexGrow": 1
+    },
+    "height": 100,
+    "paddingBottom": 10,
+    "paddingLeft": 10,
+    "paddingRight": 10,
+    "paddingTop": 10,
+    "&-imgProfile": {
+      "flexProps": {
+        "alignSelf": "CENTER",
+        "positionType": "RELATIVE"
+      },
+      "borderRadius": 35,
+      "height": 70,
+      "imageFillType": "ASPECTFIT",
+      "marginBottom": null,
+      "marginTop": null,
+      "width": 70
+    },
+    "&-flProfileRightWrapper": {
+      "flexProps": {
+        "flexGrow": 1,
+        "justifyContent": "CENTER"
+      },
+      "height": null,
+      "marginBottom": null,
+      "marginLeft": 20,
+      "marginTop": null,
+      "&-flProfileTop": {
+        "flexProps": {
+          "flexDirection": "ROW",
+          "flexGrow": 1
+        },
+        "height": null,
+        "marginBottom": 0,
+        "marginTop": 0,
+        "maxHeight": 30
+      }
+    },
+    "&-lblProfileName": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "font": {
+        "bold": true,
+        "family": "Montserrat",
+        "style": "Bold",
+        "italic": false,
+        "size": 20
+      },
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    },
+    "&-lblProfileEmail": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "font": {
+        "bold": false,
+        "style": "Medium",
+        "family": "Montserrat",
+        "italic": false,
+        "size": 16
+      },
+      "height": null,
+      "marginBottom": 0,
+      "marginTop": 0,
+      "maxHeight": 30,
+      "textColor": "rgba( 155, 155, 155, 1 )"
+    }
+  }
+}

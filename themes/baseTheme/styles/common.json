@@ -1,0 +1,83 @@
+{
+  ".grow": {
+    "flexProps": {
+      "flexGrow": 1
+    },
+    "height": null
+  },
+  ".dotIndicator": {
+    "flexProps": {
+      "alignItems": "CENTER",
+      "flexDirection": "ROW",
+      "justifyContent": "CENTER",
+      "positionType": "RELATIVE"
+    },
+    "height": 27,
+    "paddingBottom": 9,
+    "paddingTop": -4,
+    "width": 77,
+    "&-dot": {
+      "backgroundColor": "rgba( 239, 67, 57, 1 )",
+      "borderRadius": 3.5,
+      "height": 7,
+      "marginLeft": 3.5,
+      "width": 7,
+      ".main": {
+        ".active": {
+          "alpha": 1,
+          "backgroundColor": "rgba( 239, 67, 57, 1 )",
+          "borderRadius": 3.5,
+          "height": 7,
+          "marginLeft": 3.5,
+          "width": 7
+        }
+      }
+    }
+  },
+  ".noMargin": {
+    "marginBottom": null,
+    "marginTop": null
+  },
+  "#pgHomeSlider": {
+    "&-imgSliderItem": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "imageFillType": "ASPECTFIT"
+    }
+  },
+  ".paddingHorizontal": {
+    "paddingLeft": 15,
+    "paddingRight": 15
+  },
+  ".sticky": {
+    ".relative": {
+      "backgroundColor": "rgba(255,255,255,1)",
+      "bottom": 0,
+      "left": 0,
+      "paddingLeft": 15,
+      "paddingRight": 15,
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "right": 0,
+      "height": 87
+    }
+  },
+  ".contentInset": {
+    "&-top": {
+      "contentInset": {
+        "bottom": 0,
+        "top": 15
+      }
+    }
+  },
+  ".padding": {
+    "paddingLeft": 25,
+    "paddingRight": 25,
+    "paddingTop": 15,
+    "paddingBottom": 15
+  }
+}

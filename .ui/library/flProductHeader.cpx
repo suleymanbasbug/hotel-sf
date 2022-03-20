@@ -1,0 +1,91 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout",
+			"hiddenComponent": true,
+			"id": "6d4b-c191-8a15-db6c",
+			"props": {
+				"children": [
+					"1fc7-ffe2-ed51-ab89",
+					"b850-455f-bd0c-48b6"
+				],
+				"name": "flProductHeader",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1,
+					"flexDirection": "ROW"
+				},
+				"height": 50,
+				"left": 20,
+				"top": 181.67
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "1fc7-ffe2-ed51-ab89",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "6d4b-c191-8a15-db6c",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 2
+				},
+				"font": {
+					"size": 20,
+					"bold": true,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Bold"
+				},
+				"textColor": "rgba( 0, 0, 0, 1 )",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "b850-455f-bd0c-48b6",
+			"oldName": "lvlViewAll",
+			"props": {
+				"children": [],
+				"name": "lblViewAll",
+				"parent": "6d4b-c191-8a15-db6c",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"flexProps": {
+					"flexGrow": 1
+				},
+				"font": {
+					"size": 14,
+					"bold": false,
+					"italic": false,
+					"family": "Montserrat",
+					"style": "Medium"
+				},
+				"textAlignment": "MIDRIGHT",
+				"textColor": "rgba( 208, 2, 27, 1 )",
+				"usePageVariable": true
+			}
+		}
+	]
+}

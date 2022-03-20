@@ -1,0 +1,91 @@
+{
+	"components": [
+		{
+			"className": ".sf-page #page1",
+			"id": "3737-76a9-26ac-e511",
+			"initialized": true,
+			"props": {
+				"children": [
+					"2809-bd91-fdb9-8b94",
+					"fd52-2732-d5de-b45f",
+					"f2af-70e7-1c85-85f8"
+				],
+				"isRemovable": true,
+				"name": "pgHome",
+				"orientation": "PORTRAIT",
+				"parent": null,
+				"safeAreaEnabled": true
+			},
+			"type": "Page",
+			"userProps": {
+				"flexProps": {
+					"justifyContent": "FLEX_START"
+				},
+				"orientation": "PORTRAIT",
+				"paddingBottom": null,
+				"paddingLeft": null,
+				"paddingRight": null,
+				"safeAreaEnabled": true
+			},
+			"version": "6.15.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "2809-bd91-fdb9-8b94",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "3737-76a9-26ac-e511"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"android": {
+					"color": "rgba( 255, 255, 255, 1 )"
+				},
+				"style": "DEFAULT",
+				"visible": true
+			}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "fd52-2732-d5de-b45f",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "3737-76a9-26ac-e511",
+				"title": "Page1"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"backgroundColor": "rgba( 255, 255, 255, 1 )",
+				"title": "Page1",
+				"titleColor": "rgba( 0, 0, 0, 1 )"
+			}
+		},
+		{
+			"className": ".sf-listView",
+			"id": "f2af-70e7-1c85-85f8",
+			"oldName": "listView1",
+			"props": {
+				"children": [],
+				"name": "lvMain",
+				"parent": "3737-76a9-26ac-e511",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"type": "ListView",
+			"userProps": {
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"height": null,
+				"testId": "ozapRBwAg",
+				"usePageVariable": true,
+				"width": null
+			}
+		}
+	]
+}

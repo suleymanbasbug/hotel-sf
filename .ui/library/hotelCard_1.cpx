@@ -1,0 +1,188 @@
+{
+	"components": [
+		{
+			"className": ".sf-gridViewItem .simple-gridviewItem",
+			"hiddenComponent": true,
+			"id": "2269-440d-5e95-ebd8",
+			"initialized": false,
+			"props": {
+				"children": [
+					"aee1-d6c2-604d-7142"
+				],
+				"name": "hotelCard_1",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"borderColor": "rgba( 255, 255, 255, 1 )",
+				"flexProps": {},
+				"height": 126.79,
+				"ios": {
+					"shadowColor": "rgba( 255, 255, 255, 1 )"
+				},
+				"left": 32.14,
+				"top": 50,
+				"width": 105.36
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "aee1-d6c2-604d-7142",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0c27-834a-ff99-ada4",
+					"41bd-e94c-1e4f-187f"
+				],
+				"name": "hotelCardFlexLayout",
+				"parent": "2269-440d-5e95-ebd8"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"android": {
+					"elevation": 2
+				},
+				"borderColor": "rgba( 223, 223, 223, 1 )",
+				"borderRadius": 4,
+				"borderWidth": 1,
+				"flexProps": {},
+				"height": 168,
+				"ios": {
+					"shadowRadius": 3,
+					"shadowColor": "rgba( 0, 0, 0, 1 )",
+					"shadowOpacity": 1
+				},
+				"width": 160
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "0c27-834a-ff99-ada4",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0493-c3a9-15b2-2ea8"
+				],
+				"name": "imageFlexLayout",
+				"parent": "aee1-d6c2-604d-7142"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": 105,
+				"ios": {
+					"shadowColor": "rgba( 255, 255, 255, 1 )"
+				},
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-imageView",
+			"id": "0493-c3a9-15b2-2ea8",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "hotelImage",
+				"parent": "0c27-834a-ff99-ada4"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"height": 105,
+				"image": "tophotel.png",
+				"imageFillType": "STRETCH",
+				"ios": {
+					"shadowColor": "rgba( 255, 255, 255, 1 )"
+				},
+				"width": 160
+			}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "41bd-e94c-1e4f-187f",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"7d30-cfd6-a059-0f81",
+					"67fd-2813-98f9-3469"
+				],
+				"name": "infoLayout",
+				"parent": "aee1-d6c2-604d-7142"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"top": 8
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "7d30-cfd6-a059-0f81",
+			"oldName": "label4",
+			"props": {
+				"children": [],
+				"name": "hotelName",
+				"parent": "41bd-e94c-1e4f-187f",
+				"text": "Sheraton Grand"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "SFProDisplay",
+					"style": "Medium"
+				},
+				"height": 25,
+				"left": 13,
+				"text": "Sheraton Grand",
+				"textColor": "rgba( 0, 0, 0, 1 )"
+			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "67fd-2813-98f9-3469",
+			"oldName": "label5",
+			"props": {
+				"children": [],
+				"name": "price",
+				"parent": "41bd-e94c-1e4f-187f",
+				"text": "₽ 5999"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"font": {
+					"size": 12,
+					"bold": true,
+					"italic": false,
+					"family": "SFProText",
+					"style": "Semibold"
+				},
+				"height": 25,
+				"left": 13,
+				"text": "₽ 5999",
+				"textAlignment": "MIDLEFT",
+				"textColor": "rgba( 0, 0, 0, 1 )"
+			}
+		}
+	]
+}

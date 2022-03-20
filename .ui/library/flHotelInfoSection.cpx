@@ -1,0 +1,141 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flHotelInfoSection",
+			"hiddenComponent": true,
+			"id": "6f77-40e5-22b6-9033",
+			"props": {
+				"children": [
+					"eb74-0614-2a04-3aed",
+					"87b4-f776-68d9-0105"
+				],
+				"name": "flHotelInfoSection",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flexProps": {},
+				"left": 0,
+				"top": 83.93
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHotelInfoSection-flDescTitleAndArrow",
+			"id": "eb74-0614-2a04-3aed",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"9070-cfe0-ca33-5dea",
+					"f523-ab12-a83b-af7a"
+				],
+				"name": "flDescTitleAndArrow",
+				"parent": "6f77-40e5-22b6-9033",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-label .flHotelInfoSection-flDescTitleAndArrow-lblTitle",
+			"id": "9070-cfe0-ca33-5dea",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblTitle",
+				"parent": "eb74-0614-2a04-3aed",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHotelInfoSection-flDescTitleAndArrow-flArrow",
+			"id": "f523-ab12-a83b-af7a",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"9711-d5fd-f470-d96b"
+				],
+				"name": "flArrow",
+				"parent": "eb74-0614-2a04-3aed"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-imageView .flHotelInfoSection-flDescTitleAndArrow-flArrow-imgArrow",
+			"id": "9711-d5fd-f470-d96b",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgArrow",
+				"parent": "f523-ab12-a83b-af7a"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {
+				"image": "rightarrow.png"
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flHotelInfoSection-flDetail",
+			"id": "87b4-f776-68d9-0105",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"3ff2-53f8-25b1-ffbc"
+				],
+				"name": "flDetail",
+				"parent": "6f77-40e5-22b6-9033"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label .flHotelInfoSection-flDetail-lblHotelInfo",
+			"id": "3ff2-53f8-25b1-ffbc",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblHotelInfo",
+				"parent": "87b4-f776-68d9-0105",
+				"text": "label1",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1",
+				"usePageVariable": true
+			}
+		}
+	]
+}

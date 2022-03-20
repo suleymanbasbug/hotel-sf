@@ -1,0 +1,51 @@
+{
+  ".lviAccount": {
+    "height": 50,
+    "width": 350,
+    "&-flAccountWrapper": {
+      "flexProps": {
+        "alignItems": "CENTER",
+        "flexDirection": "ROW",
+        "flexGrow": 1
+      },
+      "marginBottom": 0,
+      "marginTop": 0,
+      "&-lblAccountIcon": {
+        "font": {
+          "bold": false,
+          "family": "FontAwesome5FreeSolid",
+          "style": null,
+          "italic": false
+        },
+        "textColor": "rgba( 0, 0, 0, 1 )",
+        "width": 40
+      },
+      "&-lblAccountTitle": {
+        "flexProps": {
+          "flexGrow": 3
+        },
+        "font": {
+          "bold": true,
+          "family": "Montserrat",
+          "style": "Bold",
+          "italic": false
+        },
+        "textAlignment": "MIDLEFT",
+        "textColor": "rgba( 0, 0, 0, 1 )"
+      },
+      "&-lblAccountRightIcon": {
+        "flexProps": {
+          "flexGrow": 1
+        },
+        "font": {
+          "bold": false,
+          "style": null,
+          "family": "FontAwesome5FreeSolid",
+          "italic": false
+        },
+        "textAlignment": "MIDRIGHT",
+        "textColor": "rgba( 0, 0, 0, 1 )"
+      }
+    }
+  }
+}

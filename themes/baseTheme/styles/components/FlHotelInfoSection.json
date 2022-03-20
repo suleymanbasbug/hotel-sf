@@ -1,0 +1,57 @@
+{
+  ".flHotelInfoSection": {
+    "height": 100,
+    "&-flDescTitleAndArrow": {
+      "flexProps": {
+        "flexDirection": "ROW",
+        "flexGrow": 1
+      },
+      "height": null,
+      "&-lblTitle": {
+        "flexProps": {
+          "flexGrow": 1
+        },
+        "font": {
+          "bold": true,
+          "family": "Montserrat",
+          "style": "Bold",
+          "italic": false,
+          "size": 20
+        },
+        "height": 50,
+        "textColor": "rgba( 0, 0, 0, 1 )"
+      },
+      "&-flArrow": {
+        "height": 50,
+        "marginBottom": null,
+        "marginTop": null,
+        "paddingBottom": 1,
+        "paddingTop": 1,
+        "width": 50,
+        "&-imgArrow": {
+          "height": 50,
+          "imageFillType": "NORMAL",
+          "tintColor": "rgba( 239, 67, 57, 1 )",
+          "width": 50
+        }
+      }
+    },
+    "&-flDetail": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "height": null,
+      "&-lblHotelInfo": {
+        "ellipsizeMode": "END",
+        "font": {
+          "bold": true,
+          "family": "Montserrat",
+          "style": "Bold",
+          "italic": false,
+          "size": 16
+        },
+        "textColor": "rgba( 155, 155, 155, 1 )"
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .grow",
+			"hiddenComponent": true,
+			"id": "8de9-c429-9544-4dfc",
+			"props": {
+				"children": [
+					"b092-befe-db39-2ff6",
+					"52b4-c488-186b-f09c"
+				],
+				"name": "flGenericSlider",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"height": 100,
+				"top": 100
+			}
+		},
+		{
+			"className": ".sf-flexLayout .grow",
+			"id": "b092-befe-db39-2ff6",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [],
+				"name": "flSwipeViewLayout",
+				"parent": "8de9-c429-9544-4dfc",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .flGenericSlider-flRadiusDotIndicatorWrapper",
+			"id": "52b4-c488-186b-f09c",
+			"oldName": "flexLayout1",
+			"props": {
+				"children": [
+					"0f32-d1e2-3f53-1bdc"
+				],
+				"name": "flRadiusDotIndicatorWrapper",
+				"parent": "8de9-c429-9544-4dfc",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".sf-flexLayout .dotIndicator .grow",
+			"hiddenComponent": false,
+			"id": "0f32-d1e2-3f53-1bdc",
+			"props": {
+				"children": [],
+				"name": "dotIndicator",
+				"parent": "52b4-c488-186b-f09c",
+				"usePageVariable": true
+			},
+			"ref": null,
+			"source": {
+				"page": "__library__",
+				"type": "dotIndicator",
+				"id": "53eb-28e1-c0c2-5a51"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				},
+				"height": null,
+				"usePageVariable": true
+			}
+		}
+	]
+}
